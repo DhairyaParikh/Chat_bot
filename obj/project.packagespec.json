@@ -1,0 +1,65 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/dhairyaparikh/Downloads/freakthe-bot-src/QnABot.csproj",
+    "projectName": "QnABot",
+    "projectPath": "/Users/dhairyaparikh/Downloads/freakthe-bot-src/QnABot.csproj",
+    "outputPath": "/Users/dhairyaparikh/Downloads/freakthe-bot-src/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.App": {
+          "target": "Package",
+          "version": "[2.1.19, )"
+        },
+        "Microsoft.Bot.Builder.AI.QnA": {
+          "target": "Package",
+          "version": "[4.10.3, )"
+        },
+        "Microsoft.Bot.Builder.Dialogs": {
+          "target": "Package",
+          "version": "[4.10.3, )"
+        },
+        "Microsoft.Bot.Builder.Integration.AspNet.Core": {
+          "target": "Package",
+          "version": "[4.10.3, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "runtimeIdentifierGraphPath": "/Users/dhairyaparikh/.dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+    }
+  }
+}
